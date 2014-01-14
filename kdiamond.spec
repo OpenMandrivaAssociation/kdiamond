@@ -1,5 +1,5 @@
 Name:		kdiamond
-Version:	4.11.4
+Version:	4.12.1
 Release:	1
 Epoch:		1
 Summary:	Three-in-a-row game
@@ -34,6 +34,9 @@ KDiamond is a three-in-a-row game (much like Bejeweled) for the KDE desktop.
 %makeinstall_std -C build
 
 %changelog
+* Tue Jan 14 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.12.1-1
+- New version 4.12.1
+
 * Wed Dec 04 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.11.4-1
 - New version 4.11.4
 
