@@ -17,7 +17,7 @@ KDiamond is a three-in-a-row game (much like Bejeweled) for the KDE desktop.
 %{_bindir}/kdiamond
 %{_datadir}/applications/org.kde.kdiamond.desktop
 %{_datadir}/kdiamond
-%{_sysconfigdir}/xdg/kdiamond.knsrc
+%{_sysconfdir}/xdg/kdiamond.knsrc
 %{_iconsdir}/*/*/*/kdiamond.*
 %doc %{_docdir}/*/*/kdiamond
 %{_datadir}/sounds/KDiamond*
