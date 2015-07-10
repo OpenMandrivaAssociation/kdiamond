@@ -14,13 +14,14 @@ BuildRequires: 	cmake(KF5NotifyConfig)
 KDiamond is a three-in-a-row game (much like Bejeweled) for the KDE desktop.
 
 %files
-%{_kde_bindir}/kdiamond
-%{_kde_applicationsdir}/kdiamond.desktop
-%{_kde_appsdir}/kdiamond
-%{_kde_configdir}/kdiamond.knsrc
-%{_kde_iconsdir}/*/*/*/kdiamond.*
-%{_kde_docdir}/*/*/kdiamond
-%{_kde_datadir}/sounds/KDiamond*
+%{_bindir}/kdiamond
+%{_datadir}/applications/org.kde.kdiamond.desktop
+%{_datadir}/kdiamond
+%{_sysconfigdir}/xdg/kdiamond.knsrc
+%{_iconsdir}/*/*/*/kdiamond.*
+%doc %{_docdir}/*/*/kdiamond
+%{_datadir}/sounds/KDiamond*
+%{_datadir}/kxmlgui5/kdiamond/kdiamondui.rc
 
 #------------------------------------------------------------------------------
 
