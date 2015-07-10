@@ -8,7 +8,7 @@ License:	GPLv2 and LGPLv2 and GFDL
 Url:		http://www.kde.org/applications/games/kdiamond/
 Source:		http://download.kde.org/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	libkdegames-devel
-BuildRequires: 	cmake
+BuildRequires: 	cmake(KF5NotifyConfig)
 
 %description
 KDiamond is a three-in-a-row game (much like Bejeweled) for the KDE desktop.
