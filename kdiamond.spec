@@ -26,10 +26,9 @@ KDiamond is a three-in-a-row game (much like Bejeweled) for the KDE desktop.
 
 %prep
 %setup -q
-
+%cmake_kde5
 
 %build
-%cmake_kde5
 %ninja -C build
 
 %install
