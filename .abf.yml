@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   kdiamond-15.08.0.tar.xz: 1cf25d1590c208ce0df52485010b1a86b73ab592
+sources:
+  kdiamond-15.08.1.tar.xz: 6121b3bff2b8693944b58eb0656c0f5cf5cade3e
