@@ -1,5 +1,5 @@
 Name:		kdiamond
-Version:	15.08.2
+Version:	15.08.3
 Release:	1
 Epoch:		1
 Summary:	Three-in-a-row game
