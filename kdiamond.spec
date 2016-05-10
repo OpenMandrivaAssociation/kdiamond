@@ -11,6 +11,7 @@ BuildRequires:	libkdegames-devel
 BuildRequires: 	cmake(KF5NotifyConfig)
 BuildRequires:	cmake(KF5Notifications)
 BuildRequires:	cmake(KF5DocTools)
+BuildRequires:	cmake(KF5Crash)
 
 %description
 KDiamond is a three-in-a-row game (much like Bejeweled) for the KDE desktop.
