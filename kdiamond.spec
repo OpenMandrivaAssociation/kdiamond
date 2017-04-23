@@ -1,5 +1,5 @@
 Name:		kdiamond
-Version:	17.03.80
+Version:	17.04.0
 Release:	1
 Epoch:		1
 Summary:	Three-in-a-row game
@@ -17,14 +17,13 @@ BuildRequires:	cmake(KF5Crash)
 %description
 KDiamond is a three-in-a-row game (much like Bejeweled) for the KDE desktop.
 
-%files
+%files -f kdiamond.lang
 %{_bindir}/kdiamond
 %{_datadir}/knotifications5/kdiamond.notifyrc
 %{_datadir}/applications/org.kde.kdiamond.desktop
 %{_datadir}/kdiamond
 %{_sysconfdir}/xdg/kdiamond.knsrc
 %{_iconsdir}/*/*/*/kdiamond.*
-%doc %{_docdir}/*/*/kdiamond
 %{_datadir}/sounds/KDiamond*
 %{_datadir}/kxmlgui5/kdiamond/kdiamondui.rc
 
@@ -39,5 +38,4 @@ KDiamond is a three-in-a-row game (much like Bejeweled) for the KDE desktop.
 
 %install
 %ninja_install -C build
-
-
+%find_lang kdiamond --with-html
