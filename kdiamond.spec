@@ -1,5 +1,5 @@
 Name:		kdiamond
-Version:	17.04.0
+Version:	17.04.1
 Release:	1
 Epoch:		1
 Summary:	Three-in-a-row game
