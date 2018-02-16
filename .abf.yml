@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   kdiamond-17.12.1.tar.xz: 717455c5194850676c29aa3365a68eb71dad934a
+sources:
+  kdiamond-17.12.2.tar.xz: eb7177468ae0df9574d73729cb699ffc9214ecc4
