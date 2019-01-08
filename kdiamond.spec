@@ -1,5 +1,5 @@
 Name:		kdiamond
-Version:	 18.12.0
+Version:	 18.12.1
 Release:	1
 Epoch:		1
 Summary:	Three-in-a-row game
