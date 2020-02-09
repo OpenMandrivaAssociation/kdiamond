@@ -1,6 +1,6 @@
 Name:		kdiamond
-Version:	19.12.1
-Release:	2
+Version:	19.12.2
+Release:	1
 Epoch:		1
 Summary:	Three-in-a-row game
 Group:		Graphical desktop/KDE
