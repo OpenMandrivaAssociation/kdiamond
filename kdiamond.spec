@@ -1,5 +1,5 @@
 Name:		kdiamond
-Version:	19.12.3
+Version:	20.03.80
 Release:	1
 Epoch:		1
 Summary:	Three-in-a-row game
