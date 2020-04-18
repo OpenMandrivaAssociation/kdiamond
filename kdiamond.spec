@@ -1,6 +1,6 @@
 Name:		kdiamond
-Version:	20.03.90
-Release:	2
+Version:	20.04.0
+Release:	1
 Epoch:		1
 Summary:	Three-in-a-row game
 Group:		Graphical desktop/KDE
