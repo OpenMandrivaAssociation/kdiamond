@@ -1,6 +1,6 @@
 Name:		kdiamond
 Version:	20.08.1
-Release:	1
+Release:	2
 Epoch:		1
 Summary:	Three-in-a-row game
 Group:		Graphical desktop/KDE
