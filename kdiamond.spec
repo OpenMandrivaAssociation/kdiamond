@@ -1,5 +1,5 @@
 Name:		kdiamond
-Version:	20.12.3
+Version:	21.03.80
 Release:	1
 Epoch:		1
 Summary:	Three-in-a-row game
@@ -28,7 +28,6 @@ KDiamond is a three-in-a-row game (much like Bejeweled) for the KDE desktop.
 %{_datadir}/knsrcfiles/kdiamond.knsrc
 %{_iconsdir}/*/*/*/kdiamond.*
 %{_datadir}/sounds/KDiamond*
-%{_datadir}/kxmlgui5/kdiamond/kdiamondui.rc
 
 #------------------------------------------------------------------------------
 
