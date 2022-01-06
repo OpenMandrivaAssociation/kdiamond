@@ -1,5 +1,5 @@
 Name:		kdiamond
-Version:	21.12.0
+Version:	21.12.1
 Release:	1
 Epoch:		1
 Summary:	Three-in-a-row game
