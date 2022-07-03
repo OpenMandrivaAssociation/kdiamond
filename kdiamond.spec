@@ -1,6 +1,6 @@
 Name:		kdiamond
-Version:	22.04.1
-Release:	2
+Version:	22.04.2
+Release:	1
 Epoch:		1
 Summary:	Three-in-a-row game
 Group:		Graphical desktop/KDE
