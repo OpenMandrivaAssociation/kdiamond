@@ -7,7 +7,7 @@ Release:	%{?git:0.%{git}.}1
 Summary:	Three-in-a-row game
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
-Url:		http://www.kde.org/applications/games/kdiamond/
+Url:		https://www.kde.org/applications/games/kdiamond/
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/games/kdiamond/-/archive/%{gitbranch}/kdiamond-%{gitbranchd}.tar.bz2#/kdiamond-%{git}.tar.bz2
