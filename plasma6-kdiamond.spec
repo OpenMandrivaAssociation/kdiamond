@@ -3,7 +3,7 @@
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 Name:		plasma6-kdiamond
 Version:	24.12.3
-Release:	%{?git:0.%{git}.}1
+Release:	%{?git:0.%{git}.}2
 Summary:	Three-in-a-row game
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
