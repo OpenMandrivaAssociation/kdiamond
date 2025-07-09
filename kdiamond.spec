@@ -1,7 +1,7 @@
 #define git 20240218
 %define gitbranch release/24.02
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
-Name:		plasma6-kdiamond
+Name:		kdiamond
 Version:	25.04.0
 Release:	%{?git:0.%{git}.}1
 Summary:	Three-in-a-row game
