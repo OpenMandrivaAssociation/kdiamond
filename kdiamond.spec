@@ -2,7 +2,7 @@
 %define gitbranch release/24.02
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 Name:		kdiamond
-Version:	25.04.0
+Version:	25.04.3
 Release:	%{?git:0.%{git}.}1
 Summary:	Three-in-a-row game
 Group:		Graphical desktop/KDE
@@ -22,10 +22,15 @@ BuildRequires:	cmake(KF6Crash)
 BuildRequires:	cmake(KF6DBusAddons)
 BuildRequires:	cmake(KF6XmlGui)
 
+%rename plasma6-kdiamond
+
+BuildSystem:	cmake
+BuildOption:	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
+
 %description
 KDiamond is a three-in-a-row game (much like Bejeweled) for the KDE desktop.
 
-%files -f kdiamond.lang
+%files -f %{name}.lang
 %{_datadir}/metainfo/org.kde.kdiamond.appdata.xml
 %{_bindir}/kdiamond
 %{_datadir}/knotifications6/kdiamond.notifyrc
@@ -34,18 +39,3 @@ KDiamond is a three-in-a-row game (much like Bejeweled) for the KDE desktop.
 %{_datadir}/knsrcfiles/kdiamond.knsrc
 %{_iconsdir}/*/*/*/kdiamond.*
 %{_datadir}/sounds/KDiamond*
-
-#------------------------------------------------------------------------------
-
-%prep
-%autosetup -p1 -n kdiamond-%{?git:%{gitbranchd}}%{!?git:%{version}}
-%cmake \
-	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON \
-	-G Ninja
-
-%build
-%ninja -C build
-
-%install
-%ninja_install -C build
-%find_lang kdiamond --with-html
