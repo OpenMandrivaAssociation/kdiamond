@@ -2,7 +2,7 @@
 %define gitbranch release/24.02
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 Name:		kdiamond
-Version:	25.12.2
+Version:	25.12.3
 Release:	%{?git:0.%{git}.}1
 Summary:	Three-in-a-row game
 Group:		Graphical desktop/KDE
